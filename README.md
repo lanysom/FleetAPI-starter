@@ -1,6 +1,17 @@
 # FleetAPI 
 Dette er den vejledende løsning til opgaven om design og dokumentation af en RESTful API for en biludlejningsvirksomhed. Der er et forslag til, hvordan du kan strukturere løsningen, inklusive forklaringer på de valg, der er truffet:
 
+## Krav
+The requirements for your service are as follows:
+1.	Insert a new car into the database.
+2.	Delete a car from the database.
+3.	View a list of rented cars.
+4.	View a list of available cars.
+5.	Mark a car as rented.
+6.	Mark it as returned.
+7.	It must not be possible to mark an unrented car as returned.
+
+
 ## 1. Identificer Objektmodellen
 Først skal vi identificere de objekter, der er relevante for systemet. I dette tilfælde er det primære objekt en bil.
 
